@@ -1,0 +1,10 @@
+package gestiuneAngajati;
+
+public class AngajatiCuSalariuFix {
+	private String nume;
+    private double salarFix;
+    public AngajatCuSalarFix(String nume, double salarFix) {
+        this.nume = nume;
+        this.salarFix = salarFix;
+}
+}
