@@ -1,0 +1,26 @@
+package gestiuneAngajati;
+
+public class Angajati {
+	private String nume;
+	private String prenume;
+	private int aniVechime;
+	private double salariu;
+	
+	public Angajat(String nume, String prenume, int aniVechime, double salariu) {
+		super();
+		this.nume = nume;
+		this.prenume = prenume;
+		this.aniVechime = aniVechime;
+		this.salariu = salariu;
+	}
+	
+	public boolean equals(Angajat a) {
+		
+	}
+	
+	public double calculSalariu() {
+		return salariu + (salariu * 0.1 * aniVechime);
+	}
+	
+
+}
