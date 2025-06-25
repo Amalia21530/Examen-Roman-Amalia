@@ -1,0 +1,12 @@
+package gestiuneAngajati;
+
+public class Main {
+	
+	 public static void main(String[] args) {
+		 AngajatCuSalarFix a = new AngajatCuSalarFix("Vlad", 5000);
+	 
+	        AngajatCuSalarFix b = new AngajatCuSalarFix("Elena", 3500);
+
+	       
+}
+}
